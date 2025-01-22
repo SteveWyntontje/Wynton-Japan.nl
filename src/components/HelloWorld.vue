@@ -56,8 +56,8 @@ const questionAnswer1 = ref(1);
 
 <script>
 import { useSound } from "@vueuse/sound";
-import A1 from "./assets/A1.mp3";
-import Applause from "./assets/applause.mp3";
+import A1 from "../assets/A1.mp3";
+import Applause from "../assets/applause.mp3";
 import VueCookies from "vue-cookies"
 export default {
   name: "HelloWorld",
