@@ -106,53 +106,53 @@ export default {
     handleClick() {
       if (this.currentQuestionReactive === 1) {
         if (this.questionAnswer1 === "3") {
-          this.playApplause();
+          this.useSound(Applause);
           this.currentQuestion++; 
           return;
         }
         else {
-          this.playA1();
+          this.useSound(A1);
           return
         }
       }
       if (this.currentQuestionReactive === 2) {
         if (this.questionAnswer2 === "Hiragana, Katakana, Kanji") {
-          this.playApplause();
+          this.useSound(Applause);
           this.currentQuestion++; 
           return;
         }
         else {
           if (this.questionAnswer2 === "Kanji, Hiragana, Katakana") {
-            this.playApplause();
+            this.useSound(Applause);
             this.currentQuestion++; 
             return;
           }
           else {
-            this.playA1();
+            this.useSound(A1);
             return;
           }
         }
       }
       if (this.currentQuestionReactive === 3) {
         if (this.questionAnswer3 === "a") {
-          this.playApplause();
+          this.useSound(Applause);
           this.currentQuestion++; 
           return;
         }
         else {
-          this.playA1();
+          this.useSound(A1);
           return;
         }
       }
       if (this.currentQuestionReactive === 4) {
         if (this.questionAnswer4 === "vraag 4") {
-          this.playApplause();
+          this.useSound(Applause);
           this.saveButton++;
           this.currentQuestion++; 
           return;
         }
         else {
-          this.playA1();
+          this.useSound(A1);
           return;
         }
       }
