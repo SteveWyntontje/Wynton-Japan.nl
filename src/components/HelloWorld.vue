@@ -95,8 +95,8 @@ export default {
     handleClick() {
       if (this.currentQuestion === 1) {
     if (this.questionAnswer1 === 3) {
+      this.currentQuestion++;
       this.playApplause;
-      this.currentQuestion++; 
       return;
     }
     else {
@@ -106,13 +106,13 @@ export default {
       }
       if (this.currentQuestion === 2) {
     if (this.questionAnswer2 === "Hiragana, Katakana, Kanji") {
-      this.playApplause;
       this.currentQuestion++; 
+      this.playApplause;
       return;
     }
     else if (this.questionAnswer2 === "Hiragana, Kanji, Katakana") {
-      this.playApplause;
-      this.currentQuestion++; 
+      this.currentQuestion++;
+      this.playApplause; 
       return;
     }
     else if (this.questionAnswer2 === "Katakana, Kanji, Hiragana") {
@@ -142,8 +142,8 @@ export default {
       }
       if (this.currentQuestion === 3) {
     if (this.questionAnswer3 === "a") {
-      this.playApplause;
       this.currentQuestion++;
+      this.playApplause;
       return;
     }
     else {
@@ -153,8 +153,8 @@ export default {
       }
       if (this.currentQuestion === 4) {
     if (this.questionAnswer4 === "vraag 4") {
-      this.playApplause;
-      this.currentQuestion++; 
+      this.currentQuestion++;
+      this.playApplause; 
       return;
     }
     else {
