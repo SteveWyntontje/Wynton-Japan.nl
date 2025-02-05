@@ -96,8 +96,8 @@ export default {
       if (this.currentQuestion === 1) {
     if (this.questionAnswer1 === 3) {
       this.currentQuestion++;
-      this.playApplause;
-      return;
+      this.playApplause;  
+      return
     }
     else {
       this.playA1;
@@ -106,60 +106,60 @@ export default {
       }
       if (this.currentQuestion === 2) {
     if (this.questionAnswer2 === "Hiragana, Katakana, Kanji") {
-      this.currentQuestion++; 
-      this.playApplause;
-      return;
+      this.currentQuestion++;
+      this.playApplause; 
+      return
     }
     else if (this.questionAnswer2 === "Hiragana, Kanji, Katakana") {
       this.currentQuestion++;
-      this.playApplause; 
-      return;
+      this.playApplause;  
+      return
     }
     else if (this.questionAnswer2 === "Katakana, Kanji, Hiragana") {
         this.playApplause;
         this.currentQuestion++; 
-        return;
+        return
     }
     else if (this.questionAnswer2 === "Katakana, Hiragana, Kanji") {
         this.playApplause;
         this.currentQuestion++; 
-        return;
+        return
     }
     else if (this.questionAnswer2 === "Kanji, Hiragana, Katakana") {
         this.playApplause;
         this.currentQuestion++; 
-        return;
+        return
     }
     else if (this.questionAnswer2 === "Kanji, Katakana, Hiragana") {
         this.playApplause;
         this.currentQuestion++; 
-        return;
+        return
     }
     else {
       this.playA1;
-       return;
+      return
     }
       }
       if (this.currentQuestion === 3) {
     if (this.questionAnswer3 === "a") {
       this.currentQuestion++;
-      this.playApplause;
-      return;
+      this.playApplause; 
+      return
     }
     else {
       this.playA1;
-      return;
+      return
     }
       }
       if (this.currentQuestion === 4) {
     if (this.questionAnswer4 === "vraag 4") {
       this.currentQuestion++;
-      this.playApplause; 
-      return;
+      this.playApplause;  
+      return
     }
     else {
       this.playA1;
-      return;
+      return
     }
       }
     }
